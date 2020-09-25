@@ -8,7 +8,9 @@ function execute(user, msg) {
   }
 
    return [
-   `*Bahia*\nMuitas moradias e projetos foram concluídos na Bahia no ano de 2019, 
+   `*Suas últimas doações ajudaram aos projetos:*
+   
+*Bahia*\nMuitas moradias e projetos foram concluídos na Bahia no ano de 2019, 
 mas nenhuma construção foi tão marcante quanto a de julho. Em um só fim de semana, foram colocadas
 de pé 21 moradias de emergência, o maior número
 de construções da história da organização no Estado.
