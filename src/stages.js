@@ -1,27 +1,31 @@
 var stages = {
   0: {
-    descricao: "Apresentação",
+    descricao: "Apresentação e menu",
     obj: require("./stages/0"),
   },
   1: {
-    descricao: "Quero contribuir",
+    descricao: "Menu",
     obj: require("./stages/1"),
   },
   2: {
-    descricao: "Resumo",
+    descricao: "Escolha",
     obj: require("./stages/2"),
   },
   3: {
-    descricao: "Endereço",
+    descricao: "Quero contribuir",
     obj: require("./stages/3"),
   },
   4: {
-    descricao: "Enceramento",
+    descricao: "Projetos em Andamento",
     obj: require("./stages/4"),
   },
   5: {
-    descricao: "Forma de Pagamento",
+    descricao: "Rastreie sua doação ",
     obj: require("./stages/5"),
+  },
+  6: {
+    descricao: "Perguntas Frequentes",
+    obj: require("./stages/6"),
   },
 };
 

@@ -3,26 +3,27 @@ const banco = require("../banco");
 
 function execute(user, msg) {
   if (msg === "0") {
-    banco.db[user].stage = 0;
-    return ["Volta pro menu"];
+    banco.db[user].stage = 1;
+    return "";
   }
+
    return [
-  `*ESTOU INTERESSADO/A NO VOLUNTARIADO*\n
-*Como posso ser um voluntário/a do TETO?*\n
-Inscrevendo-se na página web do seu país ou se comunicando com o escritório do TETO mais próximo. 
-Se você não tem tempo para se voluntariar, você pode se tornar um membro e contribuir com doações.\n
-*Quando há atividades?*\n
-Para conhecer as atividades do TETO em sua cidade, entre em contato com o escritório mais próximo.\n
-*QUERO SABER MAIS SOBRE O TETO*
-*TETO é o mesmo que “um Teto para o meu país”?*\n
-Até 2012 fomos Um Teto para o meu país. Naquele ano, passamos por um processo de redefinição da visão, 
-missão e novas abordagens de trabalho em comunidades precárias, até uma mudança de nome e imagem.
-*O TETO continua construindo moradias de emergência?*\n
-A situação de pobreza em que mais de 100 milhões de pessoas vivem em comunidades precárias é uma emergência permanente. É por isso que construímos moradias de emergência. No entanto, isso é apenas parte de um trabalho mais abrangente envolvendo jovens voluntários/as e habitantes de comunidades precárias. Saiba mais sobre o Modelo de Trabalho do TETO. Você também pode entrar em Gestão Social e Impacto e conhecer o efeito que a moradia de emergência tem nas famílias.
-*O que é uma Comunidade Precária?*\n
-O TETO define as comunidades precárias como um grupo de 8 ou mais famílias que vivem em uma terra que tem uma situação irregular em termos legais, e que tem a falta de acesso formal a pelo menos um serviço básico, como eletricidade, água e/ou esgoto. Saiba mais sobre a realidade das comunidades precárias.
-Quer saber? Acesse esse link:
-https://www.techo.org/brasil/perguntas-frequentes/`,
+   `*Bahia*\nMuitas moradias e projetos foram concluídos na Bahia no ano de 2019, 
+  mas nenhuma construção foi tão marcante quanto a de julho. Em um só fim de semana, foram colocadas
+  de pé 21 moradias de emergência, o maior número
+  de construções da história da organização no Estado.
+  As comunidades atendidas foram a Fazenda Cajueiro
+  e o Quilombo Kingoma.`,
+  `*Minas Gerais*\nEm Minas, a TETO construiu 59 moradias de emergência
+  - e não parou por aí. Também foi entregue o primeiro projeto
+  comunitário do estado, uma escada na comunidade Terra
+  Nossa, conhecida pelo terreno íngreme e irregular,
+  e realizado o primeiro Mutirão de Habitat da organização,
+  no qual foram construídas, em um fim de semana,
+  21 moradias e um projeto comunitário.`,
+  `Se quiser mais detalhes dos projetos acesse:\n
+  https://d335luupugsy2.cloudfront.net/cms/files/131216/1593466534relatrio_2019_teto_nacional_final_otimizado.pdf
+   `
   ];
 }
 
