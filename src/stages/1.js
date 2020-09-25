@@ -12,7 +12,8 @@ function execute(user, msg, contato) {
   banco.db[user].stage = 2;
 
   return [
-    menu
+    `${menu}
+Escolha uma opção(*1* - *4*) e tecle enter e em sequida *s* e o enter para confirmar.\n`
   ];
 }
 
