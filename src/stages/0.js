@@ -2,7 +2,7 @@ const opcoes = require("../opcoes");
 const banco = require("../banco");
 
 function execute(user) {
-  let menu = "*TETO*\n";
+  let menu = "*OPÇÕES*\n";
 
   Object.keys(opcoes.menu).forEach((value) => {
     let element = opcoes.menu[value];
@@ -13,7 +13,7 @@ function execute(user) {
 
   return [
     `Olá sou o *TOTE*, meu trabalho na *TETO* é trazer mais doadores para superação da pobreza nas favelas mais precárias do país.\nSeja também um amigo da *TETO* doando um pequeno valor.\n
-${menu}\nEscolha uma opção(*1* - *4*) e em sequida *s* para confirmar/n`,
+${menu}\nEscolha uma opção(*1* - *4*) e em sequida *s* para confirmar\n`,
   ];
 }
 
