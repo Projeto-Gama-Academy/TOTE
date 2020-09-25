@@ -13,7 +13,7 @@ function execute(user, msg, contato) {
 
   return [
     `${menu}
-Escolha uma opção(*1* - *4*) e tecle enter e em sequida *s* e o enter para confirmar.\n`
+    Escolha uma opção entre *1* e *4* e tecle enter e em sequida *s* e o enter para confirmar.`
   ];
 }
 
