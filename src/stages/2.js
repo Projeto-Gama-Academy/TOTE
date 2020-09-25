@@ -10,7 +10,7 @@ function execute(user, msg) {
 
   if (msg === "2") {
     banco.db[user].stage = 4;
-    console.log(stages.step[4]);
+    console.log(stages.step[3]);
     return stages.step[4];
   }
 
