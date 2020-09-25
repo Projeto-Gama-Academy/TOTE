@@ -6,10 +6,10 @@ function execute(user, msg) {
     banco.db[user].stage = 1;
     return;
   }
-   return [`Para doações:\n Acesse o link abaixo\n www.techo.org/brasil/doar/\n\n
-   Para ser um voluntários: Acesse o link abaixo:\n 
-   https://www.techo.org/brasil/voluntariado-no-teto/\n\n
-   Para voltar no menu digite 0`];
+   return [`*Para doações acesse o link:*\nwww.techo.org/brasil/doar/\n\n
+*Para ser um voluntários acesse:*\n 
+https://www.techo.org/brasil/voluntariado-no-teto/\n
+*Para voltar no menu digite 0*`];
 }
 
 exports.execute = execute;

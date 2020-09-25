@@ -29,7 +29,7 @@ function execute(user, msg) {
   }  
 
   return [
-    "```Não consegui tente de novo```",
+    "```Digite uma opção válida, números de 0 e 4```",
   ];
 }
 

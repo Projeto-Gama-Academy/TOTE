@@ -2,7 +2,7 @@ const opcoes = require("../opcoes");
 const banco = require("../banco");
 
 function execute(user, msg, contato) {
-  let menu = " TETO\n";
+  let menu = "*TETO*\n";
 
   Object.keys(opcoes.menu).forEach((value) => {
     let element = opcoes.menu[value];
