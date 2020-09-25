@@ -7,7 +7,7 @@ function execute(user, msg) {
     return ["X"];
   }
 
-   return [`Projetos em Andamento:\n 
+   return [`*Projetos em Andamento:*\n 
    Programa de moradia emergenciais\nhttps://www.facebook.com/watch/?v=10159019632383125&extid=esPIU0Chk3gdl3pm\n\n
    Um Só Teto 2020
    Encontro LatinoAmericano de Voluntariado

@@ -27,7 +27,6 @@ function getStage(user) {
     //Se for a primeira vez que entra e contato
     banco.db[user] = {
       stage: 0,
-      itens: [],
     };
     return banco.db[user].stage;
   }

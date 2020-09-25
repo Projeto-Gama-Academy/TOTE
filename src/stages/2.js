@@ -5,26 +5,23 @@ function execute(user, msg) {
 
   if (msg === "1") {
     banco.db[user].stage = 3;
-    return ["Bloco 3",
-    stages.step[2]];
+    return stages.step[3];
   }
 
   if (msg === "2") {
     banco.db[user].stage = 4;
-    return ["Bloco 3",
-    stages.step[3]];
+    console.log(stages.step[4]);
+    return stages.step[4];
   }
 
   if (msg === "3") {
     banco.db[user].stage = 5;
-    return ["Bloco 4",
-    stages.step[4]];
+    return stages.step[5];
   }
 
   if (msg === "4") {
     banco.db[user].stage = 6;
-    return ["Bloco 5",
-    stages.step[5]];
+    return stages.step[6];
   }
 
   if (msg === "0") {
@@ -33,9 +30,7 @@ function execute(user, msg) {
   }
 
   if (!opcoes.menu[msg]) {
-    return [
-      "Digite alguma coisa",
-    ];
+    return ["Escolha as opções de 0 a 4"];
   }
 
   return [
