@@ -9,7 +9,7 @@ function execute(user, msg) {
    return [`*Para doações acesse o link:*\nwww.techo.org/brasil/doar/\n\n
 *Para ser um voluntários acesse:*\n 
 https://www.techo.org/brasil/voluntariado-no-teto/\n
-*Para voltar no menu digite 0*`];
+Para voltar no menu digite *0* e em sequida *s* para confirmar`];
 }
 
 exports.execute = execute;

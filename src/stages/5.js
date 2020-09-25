@@ -4,7 +4,7 @@ const banco = require("../banco");
 function execute(user, msg) {
   if (msg === "0") {
     banco.db[user].stage = 1;
-    return ["X"];
+    return;
   }
 
    return [
@@ -22,8 +22,8 @@ function execute(user, msg) {
   no qual foram construídas, em um fim de semana,
   21 moradias e um projeto comunitário.`,
   `Se quiser mais detalhes dos projetos acesse:\n
-  https://d335luupugsy2.cloudfront.net/cms/files/131216/1593466534relatrio_2019_teto_nacional_final_otimizado.pdf
-   `
+  https://d335luupugsy2.cloudfront.net/cms/files/131216/1593466534relatrio_2019_teto_nacional_final_otimizado.pdf\n
+  Para voltar no menu digite *0* e em sequida *s* para confirmar`
   ];
 }
 

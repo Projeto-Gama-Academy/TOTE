@@ -13,7 +13,9 @@ Um Só Teto 2020
 Encontro LatinoAmericano de Voluntariado
 De 31 de agosto a 4 de setembro
 Inscreva-se:\n
-https://techoorg.wixsite.com/unsolotecho?lang=pt`];
+https://techoorg.wixsite.com/unsolotecho?lang=pt\n
+Para voltar no menu digite *0* e em sequida *s* para confirmar
+`];
 }
 
 exports.execute = execute;

@@ -7,11 +7,11 @@ const stages = require("./stages");
 bot.create().then((client) => start(client));
 function start(client) {
   client.onMessage((message) => {
-    console.log(message)
+    //console.log(message)
     let resp = stages.step[getStage(message.from)].obj.execute(
       message.from,
       message.body,
-      message.sender.name
+
     );
     for (let index = 0; index < resp.length; index++) {
       const element = resp[index];
