@@ -1,10 +1,10 @@
-const cardapio = require("../opcoes");
+const opcoes = require("../opcoes");
 const banco = require("../banco");
 
 function execute(user, msg, contato) {
   let menu = " TETO\n";
 
-  Object.keys(cardapio.menu).forEach((value) => {
+  Object.keys(opcoes.menu).forEach((value) => {
     let element = opcoes.menu[value];
     menu += `${value} - ${element.descricao} \n`;
   });

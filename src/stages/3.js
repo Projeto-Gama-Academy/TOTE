@@ -4,9 +4,8 @@ const banco = require("../banco");
 function execute(user, msg) {
   if (msg === "0") {
     banco.db[user].stage = 1;
-    return [""];
+    return;
   }
-
    return [`Para doações:\n Acesse o link abaixo\n www.techo.org/brasil/doar/\n\n
    Para ser um voluntários: Acesse o link abaixo:\n 
    https://www.techo.org/brasil/voluntariado-no-teto/\n\n

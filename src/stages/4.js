@@ -4,7 +4,7 @@ const stages = require("../stages");
 function execute(user, msg) {
   if (msg === "0") {
     banco.db[user].stage = 1;
-    return [""];
+    return ["X"];
   }
 
    return [`Projetos em Andamento:\n 

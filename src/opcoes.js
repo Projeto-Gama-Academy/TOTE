@@ -1,4 +1,4 @@
-const cardapio = {
+const opcoes = {
   1: {
     descricao: "Quero Contribuir",
     //preco: 9.9,
@@ -17,4 +17,4 @@ const cardapio = {
   },
 };
 
-exports.menu = cardapio;
+exports.menu = opcoes;

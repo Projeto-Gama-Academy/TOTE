@@ -1,4 +1,4 @@
-const opcao = require("../opcoes");
+const opcoes = require("../opcoes");
 const banco = require("../banco");
 
 function execute(user, msg) {
@@ -10,19 +10,19 @@ function execute(user, msg) {
   }
 
   if (msg === "2") {
-    banco.db[user].stage = 3;
+    banco.db[user].stage = 4;
     return ["Bloco 3",
     stages.step[3]];
   }
 
   if (msg === "3") {
-    banco.db[user].stage = 4;
+    banco.db[user].stage = 5;
     return ["Bloco 4",
     stages.step[4]];
   }
 
   if (msg === "4") {
-    banco.db[user].stage = 5;
+    banco.db[user].stage = 6;
     return ["Bloco 5",
     stages.step[5]];
   }
@@ -32,14 +32,14 @@ function execute(user, msg) {
     return ["Bloco 0 menu inicial"];
   }
 
-  if (!opcao.menu[msg]) {
+  if (!opcoes.menu[msg]) {
     return [
-      "digite alguma coisa",
+      "Digite alguma coisa",
     ];
   }
 
   return [
-    "```Digite # para finalizar ou * para cancelar```",
+    "```Não consegui tente de novo```",
   ];
 }
 

@@ -4,7 +4,7 @@ const banco = require("../banco");
 function execute(user, msg) {
   if (msg === "0") {
     banco.db[user].stage = 1;
-    return [""];
+    return;
   }
    return [
   `*ESTOU INTERESSADO/A NO VOLUNTARIADO*\n
