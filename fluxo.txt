@@ -1,0 +1,124 @@
+-- Boas vindas e apresentação do projeto TETO
+-- Opções de doações:
+  1. Doação pontual:
+  https://www.techo.org/brasil/doacao-pontual
+
+  2. Doação mensal
+  https://www.techo.org/brasil/doador-recorrente
+
+  3. Para conhecer mais sobre a TETO, seus projetos, atuação, enfim, detalhes.
+
+-- a. A TETO prioriza a transparência, se quiser entender um pouco mais, acesse o link:
+  https://www.techo.org/brasil/transparencia/
+
+-- b.  E nesse você pode acessar todo o relatório de gestão financeira  desde 2012:
+  https://www.techo.org/brasil/informe-se/gestao-financeira/
+
+-- c. A catástrofe social da América Latina tem seu epicentro nas comunidades precárias, e é aí que a TETO atua.
+  https://www.techo.org/brasil/realidade-das-favelas-precarias/
+
+
+-- enceramento e agradecimento por adicionar o bot, e como você 
+
+
+OBS. O que é teto o link tá quebrado
+
+user:
+Quero conhecer a TETO. Como posso ajudar?
+
+bot:
+1. Quero Contribuir
+2. Projetos em Andamento
+3. Rastreie sua doação
+4. Perguntas Frequentes
+
+user: 1
+
+bot:
+1 - Para doações: 
+Acesse o link abaixo: 
+ https://www.techo.org/brasil/doar/
+
+2 - Para ser um voluntários: 
+Acesse o link abaixo: 
+ https://www.techo.org/brasil/voluntariado-no-teto/ 
+
+
+4 - Se quiser continuar conhecer mais sobre a TETO 
+Acesse o link abaixo: 
+ https://doe.teto.org.br/doe/single_step
+
+Para voltar ao Menu Principal, digite 0 a qualquer momento.  Para sair da conversa digite *.
+
+user: 0
+
+bot:
+1. Quero Contribuir
+2. Projetos em Andamento
+3. Rastreie sua doação
+4. Perguntas Frequentes
+
+user: 2
+
+1. Um Só Teto 2020
+
+user: 1
+
+bot:
+Um Só Teto 2020
+Encontro LatinoAmericano de Voluntariado
+De 31 de agosto a 4 de setembro
+Inscreva-se: https://techoorg.wixsite.com/unsolotecho?lang=pt
+
+Para voltar ao Menu Principal, digite 0 a qualquer momento.  Para sair da conversa digite *.
+
+user: 0
+
+bot:
+1. Quero Contribuir
+2. Projetos em Andamento
+3. Rastreie sua doação
+4. Perguntas Frequentes
+
+
+user:3
+
+bot:
+Informe o mês da sua doação, no formato MM/AAAA
+
+user:
+06/2020
+
+bot:
+As doações ocorridas em 06/2020 foram destinadas para os projetos:
+1. Projeto01
+2. Projeto02
+
+user: 1
+
+bot:
+Exibe foto
+Resumo do Projeto
+Link do Projeto
+
+Para voltar ao Menu Principal, digite 0 a qualquer momento.  Para sair da conversa digite *.
+
+user: 0
+
+bot:
+1. Quero Contribuir
+2. Projetos em Andamento
+3. Rastreie sua doação
+4. Perguntas Frequentes
+
+user: 4
+
+bot:
+1. Qual o valor mínimo para doação?
+
+user: 1
+
+bot:
+O valor mínimo para doação é R$ XX,XXX.
+
+Para voltar ao Menu Principal, digite 0 a qualquer momento.  Para sair da conversa digite *.
