@@ -13,8 +13,7 @@ function execute(user) {
 
   return [
     `Olá sou o *TOTE*, meu trabalho na *TETO* é trazer mais doadores para superação da pobreza nas favelas mais precárias do país.\nSeja também um amigo da *TETO* doando um pequeno valor.\n
-    escolha uma opção(*1* - *4*) e em sequida *s* para confirmar`,
-    menu,
+${menu}\nEscolha uma opção(*1* - *4*) e em sequida *s* para confirmar/n`,
   ];
 }
 
