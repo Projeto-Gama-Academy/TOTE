@@ -7,13 +7,16 @@ function execute(user, msg) {
     return ["X"];
   }
 
-   return [`*Projetos em Andamento:*\n 
-Programa de moradia emergenciais\nhttps://www.facebook.com/watch/?v=10159019632383125&extid=esPIU0Chk3gdl3pm\n
-Um Só Teto 2020
+   return [`*PROJETOS EM ANDAMENTO:*
+*Programa de moradia emergenciais*
+https://www.facebook.com/watch/?v=10159019632383125&extid=esPIU0Chk3gdl3pm
+
+*Um Só Teto 2020*
 Encontro LatinoAmericano de Voluntariado
 De 31 de agosto a 4 de setembro
-Inscreva-se:\n
-https://techoorg.wixsite.com/unsolotecho?lang=pt\n
+*Inscreva-se:*
+https://techoorg.wixsite.com/unsolotecho?lang=pt
+
 Para voltar no menu digite *0* e tecle enter e em sequida *s* e o enter para confirmar.
 `];
 }
