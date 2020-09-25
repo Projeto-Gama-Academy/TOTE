@@ -14,7 +14,7 @@ Encontro LatinoAmericano de Voluntariado
 De 31 de agosto a 4 de setembro
 Inscreva-se:\n
 https://techoorg.wixsite.com/unsolotecho?lang=pt\n
-Para voltar no menu digite *0* e em sequida *s* para confirmar
+Para voltar no menu digite *0* e tecle enter e em sequida *s* e o enter para confirmar
 `];
 }
 

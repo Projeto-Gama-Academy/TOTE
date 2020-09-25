@@ -23,7 +23,7 @@ A situação de pobreza em que mais de 100 milhões de pessoas vivem em comunida
 O TETO define as comunidades precárias como um grupo de 8 ou mais famílias que vivem em uma terra que tem uma situação irregular em termos legais, e que tem a falta de acesso formal a pelo menos um serviço básico, como eletricidade, água e/ou esgoto. Saiba mais sobre a realidade das comunidades precárias.
 Quer saber? Acesse esse link:
 https://www.techo.org/brasil/perguntas-frequentes/\n
-Para voltar no menu digite *0* e em sequida *s* para confirmar`,
+Para voltar no menu digite *0* e tecle enter e em sequida *s* e o enter para confirmar`,
   ];
 }
 
